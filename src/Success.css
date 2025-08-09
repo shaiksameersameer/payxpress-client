@@ -1,0 +1,41 @@
+.success-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.success-card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 350px;
+}
+
+.success-card h1 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #16a34a;
+}
+
+.success-card p {
+  font-size: 14px;
+  margin: 5px 0;
+  color: #374151;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 15px;
+  color: #3b82f6;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
