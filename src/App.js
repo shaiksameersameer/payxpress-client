@@ -12,9 +12,9 @@ function App() {
     }
 
     try {
-      const response = await axios.post("http://localhost:5000/create-order", {
-        amount,
-      });
+     const response = await axios.post("https://payxpress-server.onrender.com/create-order", {
+  amount,
+});
 
       const { order } = response.data;
 
